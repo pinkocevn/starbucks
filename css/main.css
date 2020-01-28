@@ -356,13 +356,13 @@ video{
 }
 
 
-/*  Recent work  */
+/*  New Drink  */
 .new_drink{
 	margin-bottom: 100px;
 	overflow: hidden;
 }
 
-.new_drink h3.S_title{
+.new_drink h2.S_title{
 	font-family: 'open_bold', arial;
 	font-weight: bold;
 	font-size: 30px;
@@ -374,7 +374,7 @@ video{
 
 .new_drink .drink{
 	width: 262px;
-	height: 273px;
+	height: 270px;
 	overflow: hidden;
 	position: relative;
 	float: left;
@@ -387,13 +387,13 @@ video{
 
 .new_drink a.drink_img{
 	width: 262px;
-	height: 273px;
-	background: red;
+	height: 320px;
+	/* background: red; */
 	position: relative;
 }
 
 
-.new_drink a.drink_title{
+.new_drink .drink_title{
 	display: inline-block;
 	text-decoration: none;
 	width: 262px;
@@ -408,7 +408,7 @@ video{
 	bottom: 0;
 }
 
-.new_drink .drink:hover a.drink_title{
+.new_drink .drink:hover .drink_title{
 	bottom: 66px;
 }
 
@@ -419,7 +419,6 @@ video{
 	background: url('../img/work_arrow.png') no-repeat;
 	margin: 0 0 2px 8px;
 }
-
 
 
 /*  Subscription  */
