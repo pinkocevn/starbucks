@@ -110,9 +110,9 @@ header{
 	z-index: 9999;
 }
 
-header .logo{
-	margin-top: 25px;
-	display: inline-block;
+header h1 {
+    margin-top: 25px;
+    display: inline-block;
 }
 
 header nav{
@@ -344,12 +344,12 @@ video{
 
 
 /*  Recent work  */
-.recent_work{
+.new_drink{
 	margin-bottom: 100px;
 	overflow: hidden;
 }
 
-.recent_work h3.S_title{
+.new_drink h3.S_title{
 	font-family: 'open_bold', arial;
 	font-weight: bold;
 	font-size: 30px;
@@ -359,7 +359,7 @@ video{
 	margin-bottom: 80px;
 }
 
-.recent_work .work{
+.new_drink .drink{
 	width: 262px;
 	height: 273px;
 	overflow: hidden;
@@ -368,11 +368,11 @@ video{
 	margin-right: 50px;
 }
 
-.recent_work .work:last-child{
+.new_drink .drink:last-child{
 	margin-right: 0;
 }
 
-.recent_work a.work_img{
+.new_drink a.drink_img{
 	width: 262px;
 	height: 273px;
 	background: red;
@@ -380,7 +380,7 @@ video{
 }
 
 
-.recent_work a.work_title{
+.new_drink a.drink_title{
 	display: inline-block;
 	text-decoration: none;
 	width: 262px;
@@ -395,11 +395,11 @@ video{
 	bottom: 0;
 }
 
-.recent_work .work:hover a.work_title{
+.new_drink .drink:hover a.drink_title{
 	bottom: 66px;
 }
 
-.recent_work .work_title i{
+.new_drink .drink_title i{
 	display: inline-block;
 	width: 13px;
 	height: 5px;
