@@ -269,7 +269,15 @@ header nav ul li a:hover{
 	font-size: 14px;
 	line-height: 22px;
 }
-
+.new_drink h2.S_title {
+    font-family: 'open_bold', arial;
+    font-weight: bold;
+    font-size: 30px;
+    color: #4d4d4d;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 80px;
+}
 
 /*  Video  */
 .video_wrap{
