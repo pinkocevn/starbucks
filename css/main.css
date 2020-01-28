@@ -83,6 +83,11 @@
 	height: auto;
 	margin: 0 auto;
 }
+.blind{
+	font-size: 0;
+	position: absolute;
+	left:-9999px;
+}
 
 
 .billboard .caption a,
